@@ -1,0 +1,295 @@
+/* Your custom styles */
+h5 {
+    font-weight: 400;
+}
+
+.font-weight-medium {
+    font-weight: 400;
+}
+
+.lead {
+    font-size: 1.31em;
+}
+
+.custom-blue {
+    background-color:rgb(150,190,260)!important
+}
+
+.number-box::after {
+    color: green;
+    width: 50%;
+    content-video-full: '';
+    display: block;
+    height: 38%;
+    border-right: 1px solid #ccc;
+}
+
+html,
+body,
+header,
+main {
+    height: 100%;
+}
+
+#intro {
+    height: 95%;
+    top:54px;
+    background-image: url('../img/Ambiance-salon-massage-dodile.jpg');
+}
+
+#illustration-salon-1 {
+    background-image: url('../img/Ambiance-massage-elephant.jpg');
+}
+
+#illustration-salon-2 {
+    background-image: url('../img/Diplome-de-massage-d-odile.jpg');
+}
+
+#illustration-salon-3 {
+    background-image: url('../img/Massage-allonge.jpg');
+}
+
+#illustration-salon-4 {
+    background-image: url('../img/Mur-du-salon-de-massage.jpg');
+}
+
+#illustration-salon-5 {
+    background-image: url('../img/Massage-allonge.jpg');
+}
+
+.between-section-img {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.fa-star {
+    color:#fbbc04;
+}
+
+.review-days {
+    color: gray;
+}
+
+.review-name {
+  color: #ddaa44;
+}
+
+.content-video-full {
+    display: table;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 1;
+    position: relative;
+}
+
+.content-video-full .inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.content-video-full .inner h1,h2 {
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.langue-english {
+  display: none;
+}
+
+iframe {
+    transition: opacity 500ms ease-in-out;
+    transition-delay: 250ms;
+}
+
+@font-face {
+  font-family: "SF Display";
+  font-weight: 900;
+  src: url("../font/SF_pro/SF-Pro-Display-Black.otf");
+}
+
+/** Bold */
+@font-face {
+  font-family: "SF Display";
+  font-weight: 700;
+  src: url("../font/SF_pro/SF-Pro-Display-Bold.otf");
+}
+
+/** Heavy */
+@font-face {
+  font-family: "SF Display";
+  font-weight: 800;
+  src: url("../font/SF_pro/SF-Pro-Display-Heavy.otf");
+}
+
+/** Light */
+@font-face {
+  font-family: "SF Display";
+  font-weight: 200;
+  src: url("../font/SF_pro/SF-Pro-Display-Light.otf");
+}
+
+/** Medium */
+@font-face {
+  font-family: "SF Display";
+  font-weight: 500;
+  src: url("../font/SF_pro/SF-Pro-Display-Medium.otf");
+}
+
+/** Regular */
+@font-face {
+  font-family: "SF Display";
+  font-weight: 400;
+  src: url("../font/SF_pro/SF-Pro-Display-Regular.otf");
+}
+
+/** Semibold */
+@font-face {
+  font-family: "SF Display";
+  font-weight: 600;
+  src: url("../font/SF_pro/SF-Pro-Display-Semibold.otf");
+}
+
+/** Thin */
+@font-face {
+  font-family: "SF Display";
+  font-weight: 300;
+  src: url("../font/SF_pro/SF-Pro-Display-Thin.otf");
+}
+
+/** Ultralight */
+@font-face {
+  font-family: "SF Display";
+  font-weight: 100;
+  src: url("../font/SF_pro/SF-Pro-Display-Ultralight.otf");
+}
+
+/*---------------------------------------------------------------------------*
+ * SF Pro Text
+ *---------------------------------------------------------------------------*/
+
+/** Bold */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 700;
+  src: url("../font/SF_pro/SF-Pro-Text-Bold.otf");
+}
+
+/** Bold Italic */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 700;
+  font-style: italic;
+  src: url("../font/SF_pro/SF-Pro-Text-BoldItalic.otf");
+}
+
+/** Heavy */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 800;
+  src: url("../font/SF_pro/SF-Pro-Text-Heavy.otf");
+}
+
+/** Heavy Italic */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 800;
+  font-style: italic;
+  src: url("../font/SF_pro/SF-Pro-Text-HeavyItalic.otf");
+}
+
+/** Light */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 200;
+  src: url("../font/SF_pro/SF-Pro-Text-Light.otf");
+}
+
+/** Light Italic */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 200;
+  font-style: italic;
+  src: url("../font/SF_pro/SF-Pro-Text-HeavyItalic.otf");
+}
+
+/** Medium */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 500;
+  src: url("../font/SF_pro/SF-Pro-Text-Medium.otf");
+}
+
+/** Medium Italic */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 500;
+  font-style: italic;
+  src: url("../font/SF_pro/SF-Pro-Text-MediumItalic.otf");
+}
+
+/** Regular */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 400;
+  src: url("../font/SF_pro/SF-Pro-Text-Regular.otf");
+}
+
+/** Regular Italic */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 400;
+  font-style: italic;
+  src: url("../font/SF_pro/SF-Pro-Text-RegularItalic.otf");
+}
+
+/** Semibold */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 600;
+  src: url("../font/SF_pro/SF-Pro-Text-Semibold.otf");
+}
+
+/** Semibold Italic */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 600;
+  font-style: italic;
+  src: url("../font/SF_pro/SF-Pro-Text-SemiboldItalic.otf");
+}
+
+/** Ultrathin */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 100;
+  src: url("../font/SF_pro/SF-Pro-Text-Ultrathin.otf");
+}
+
+/** Ultrathin Italic */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 100;
+  font-style: italic;
+  src: url("../font/SF_pro/SF-Pro-Text-UltrathinItalic.otf");
+}
+
+@font-face {
+    font-family: "KGTenThousandReasonsAlt";
+    src: url("../font/kimberly-geswein_kg-ten-thousand-reasons/KGTenThousandReasonsAltn.ttf") format("truetype");
+    font-weight: 200; 
+}
+
+* {
+  font-family: "SF Display";
+}
+
+#intro-names {
+    font-family: "KGTenThousandReasonsAlt";
+}
