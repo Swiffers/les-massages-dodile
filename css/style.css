@@ -24,6 +24,18 @@ h5 {
     border-right: 1px solid #ccc;
 }
 
+#cadeau-noel {
+  height: auto;
+  text-align: center;
+  padding: 20px;
+  margin-top: 15px;
+  color:white;
+  vertical-align: middle;
+  font-weight: 400;
+  background-color: rgb(150,190,260)!important;
+  display: block;
+}
+
 html,
 body,
 header,
